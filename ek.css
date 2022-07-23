@@ -1,6 +1,10 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
 h1{
     font-size: 70px;
-    color: white;
+    color: black;
 }
 p{
     color: whitesmoke;
@@ -12,17 +16,52 @@ p{
   text-align: center;
     text-decoration: none;
     background-image: linear-gradient(red,tomato);
-  padding: 20px;
+  padding: 20px 30px;
   border-radius: 5px;
-  font-weight: 700;  
+  font-size: large;  
   color: azure;
   font-size: 30px;
 }
 .first-sec{
     text-align: center;
     padding: 20%;
-    height: 100%;
     background-image: url(donation13.jpg);
     background-size: cover;
     background-position: center;
+}
+.second-sec{
+  text-align: center;
+  color: black;
+  margin-top: 50px;
+}
+.para{
+  
+  color: black;
+  text-align: center;
+  width: 80%;
+  margin-left: 50px;
+  margin-top: 20px;
+  padding: 40px;
+}
+.child{
+  text-align: center;
+  color: black;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 80px;
+  width: 100px;
+  border: 2px solid wheat;
+  background-color: whitesmoke;
+padding: 20px;
+border-radius: 5px;
+}
+.parent{
+  display: flex;
+  text-align: center;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+#parent-child{
+  color: tomato;
+  border: 2px solid coral;
 }
